@@ -1,0 +1,10 @@
+List  Set queue stack
+List: ArrayList(查询快) LinkedList(增删改快、LinkdeList集合特有方法  头插、尾插、头删、尾删 获取头尾元素的方法) 按插入顺序排序可重复
+Set: HashSet 无序不重复 自定义类必须重写equals()和hashCode()方法
+     LinkedHashSet 继承HashSet 插入顺序排序、不重复
+
+     TreeSet 默认由低到高排序 comparable内部比较器 Comparator外部比较器（当实体类无法改变的时候使用）
+
+Queue:  queue(《-- 单向队列先进先出 一个方向出)
+        deque 双向队列（《-----》 两个方法都可用入队出队) 相比于单向队列增加了头插尾插、头出尾出
+stack: 栈先进后出 压栈出栈方法
