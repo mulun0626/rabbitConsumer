@@ -1,6 +1,9 @@
-package org.muyun.rabbitconsumer.map;
+package org.muyun.rabbitconsumer.collection.map;
 
-import java.util.*;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 // HashMap 底层是hash表  entry(键值对 key-value),key唯一、value可以多个
 // jdk1.7 数组和链表头插 1.8及以后 数组链表和红黑树 当数组的长度大于等于64且链表的长度大于8 链表转换为红黑树、否则数组扩容 。当红黑树的长度<6时、转换为链表 尾插

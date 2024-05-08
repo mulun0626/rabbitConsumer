@@ -1,4 +1,4 @@
-package org.muyun.rabbitconsumer.map;
+package org.muyun.rabbitconsumer.collection.map;
 
 import java.util.TreeMap;
 
